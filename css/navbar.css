@@ -1,0 +1,99 @@
+:root {
+    --pr-color : #101313;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color:white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.judul1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 78px;
+    color: #FFFFFF;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 8pt;
+}
+
+.nav-color{
+    background-color: var(--pr-color);
+}
+
+.nav-link {
+    font-size: 16px;
+
+}
+
+.nav-link.active {
+    font-weight: 400;
+}
+
+.navbar{
+    height: 100px;
+}
+
+.navbar a{
+    font-size: 18px;
+}
+
+.button-third {
+    width: 165px;
+    height: 55px;
+    background-color: #101313;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button-secondary {
+    width: 165px;
+    height: 55px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button-primary {
+    width: 165px;
+    height: 55px;
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* END NAVBAR */
+
+footer{
+    width: 100%;
+    height: 270px;
+    background: #000;
+}
+
+.copyright{
+    bottom: 1%;
+    color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+/* identical to box height, or 112% */
+
+
+color: #FFFFFF;
+}
